@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context="com.click.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#00000000"
+        android:elevation="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:textColor="#DEF0FC"
+        android:layout_marginTop="26dp"
+        android:text="Select Your current Mood"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/happyButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/happy" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/happyButton"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Happy"
+        android:textColor="#DEF0FC"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/sadButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/sad" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/sadButton"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Sad"
+        android:textColor="#DEF0FC"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/angryButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/angry" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/angryButton"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Angry"
+        android:textColor="#DEF0FC"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/wonder" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/about"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="More coming soon..."
+        android:textColor="#DEF0FC"
+        android:textSize="16dp" />
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solution Bot"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chatty"
+        />-->
+
+    <Button
+        android:id="@+id/buttonSolution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:gravity="center"
+        android:textColor="#DEF0FC"
+        android:text="Chat with solution bot"
+        android:background="#00000000"/>
+
+    <Button
+        android:id="@+id/buttonAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textColor="#DEF0FC"
+        android:background="#00000000"
+        android:text="Answer Forum queries!" />
+
+</RelativeLayout>
+
+
